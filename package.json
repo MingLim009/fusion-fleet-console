@@ -2,7 +2,8 @@
   "name": "fusion-fleet-console",
   "private": true,
   "version": "1.0.0",
-  "description": "Internal console for tracking POS terminal patch status across restaurant locations.",
+  "description": "React app for tracking POS terminal patch status across restaurant locations.",
+  "keywords": ["react", "javascript", "vite"],
   "type": "module",
   "engines": {
     "node": ">=20"

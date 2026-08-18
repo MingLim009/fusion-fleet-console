@@ -1,0 +1,4 @@
+# GitHub has no Linguist language named React. Count the app source as
+# JavaScript so the repository is classified as a React/JavaScript project.
+*.tsx linguist-language=JavaScript
+*.ts linguist-language=JavaScript
