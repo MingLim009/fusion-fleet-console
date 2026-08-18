@@ -1,0 +1,165 @@
+:root {
+  color-scheme: light;
+  font-family: "Segoe UI", sans-serif;
+  line-height: 1.4;
+  color: #122018;
+  background: #eef3ee;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+.app-shell {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 16px;
+}
+
+.eyebrow {
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.75rem;
+  color: #3c6b4f;
+}
+
+h1,
+h2 {
+  margin: 0 0 8px;
+}
+
+.toolbar,
+.workspace,
+.filter-row {
+  display: flex;
+  gap: 16px;
+}
+
+.toolbar {
+  margin: 16px 0;
+  align-items: end;
+  flex-wrap: wrap;
+}
+
+.filter-row {
+  flex-direction: column;
+  min-width: 220px;
+}
+
+.workspace {
+  align-items: flex-start;
+}
+
+.table-wrap,
+.detail-panel {
+  background: #fff;
+  border: 1px solid #c9d6cc;
+  border-radius: 12px;
+  padding: 16px;
+}
+
+.table-wrap {
+  flex: 1;
+  overflow: auto;
+}
+
+.detail-panel {
+  width: 280px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+  border-bottom: 1px solid #dce6de;
+}
+
+tr.is-active {
+  background: #e7f3ea;
+}
+
+.status-banner {
+  margin-top: 12px;
+  padding: 10px 12px;
+  background: #d7eadc;
+  border-radius: 8px;
+}
+
+.status-badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: 0.85rem;
+}
+
+.status-current {
+  background: #d9f2df;
+}
+
+.status-due {
+  background: #fff1c2;
+}
+
+.status-overdue {
+  background: #ffd6d1;
+}
+
+.status-offline {
+  background: #e4e4e4;
+}
+
+.primary,
+.sort-button,
+.app-header button {
+  border: 1px solid #2f5d40;
+  background: #2f5d40;
+  color: #fff;
+  border-radius: 8px;
+  padding: 8px 12px;
+}
+
+.sort-button {
+  background: transparent;
+  color: inherit;
+  border: 0;
+  padding: 0;
+}
+
+.selection-count {
+  margin: 0 0 8px;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+
+button:disabled {
+  opacity: 0.6;
+}
