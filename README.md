@@ -1,0 +1,1 @@
+Fusion Fleet Console is an internal React app for reviewing POS terminal patch status across three restaurant locations. Inventory is loaded from an in-memory store so the project runs without credentials or outside services.
